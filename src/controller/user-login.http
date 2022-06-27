@@ -1,0 +1,17 @@
+### 登录成功
+POST  http://127.0.0.1:7001/api/user/login
+Content-Type: application/json
+
+{
+  "username": "jack",
+  "password": "redballoon"
+}
+
+### 账号或密码不正确
+POST  http://127.0.0.1:7001/api/user/login
+Content-Type: application/json
+
+{
+  "username": "jack",
+  "password": "aaa"
+}
